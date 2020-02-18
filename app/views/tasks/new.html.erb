@@ -1,0 +1,14 @@
+
+<%= form_for @task do |f|%>
+<%= f.label :title, "Enter your task" %>
+<%= f.text_field :title %>
+<p></p>
+<%= f.label :details, "Describe the task" %>
+<%= f.text_field :details%>
+<%= f.check_box :completed %>
+<%= f.submit  %>
+<% end %>
+
+
+
+ -->
